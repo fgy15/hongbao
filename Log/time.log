@@ -1,0 +1,26 @@
+2016-08-05 15:05:11:TEST:
+2016-08-05 15:06:46:TEST:
+2016-08-05 15:41:59:DB_ERROR:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S' at line 1
+2016-08-05 15:44:46:DB_ERROR:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S' at line 1
+2016-08-05 15:45:11:DB_ERROR:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S' at line 1
+2016-08-05 15:45:59:DB_ERROR:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S' at line 1
+2016-08-05 15:46:01:DB_ERROR:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S' at line 1
+2016-08-05 15:47:28:DB_ERROR:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S' at line 1
+2016-08-05 15:47:34:DB_ERROR:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S' at line 1
+2016-08-05 15:48:06:DB_ERROR:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S' at line 1
+2016-08-05 15:48:07:DB_ERROR:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S' at line 1
+2016-08-05 15:48:17:DB_ERROR:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S' at line 1
+2016-08-05 15:54:40:INFO:refund ￥0 to users
+2016-08-05 16:16:30:INFO:refund ￥222.47 to users
+2016-08-05 16:57:09:INFO:refund ￥0 to users
+2016-08-05 16:57:36:INFO:refund ￥0 to users
+2016-08-05 16:57:38:INFO:refund ￥0 to users
+2016-08-05 16:57:39:INFO:refund ￥0 to users
+2016-08-05 16:57:40:INFO:refund ￥0 to users
+2016-08-05 16:57:41:INFO:refund ￥0 to users
+2016-08-05 17:03:52:INFO:NOTHING OVERTIME
+2016-08-05 17:05:19:INFO:NOTHING OVERTIME
+2016-08-05 17:05:20:INFO:NOTHING OVERTIME
+2016-08-05 17:05:21:INFO:NOTHING OVERTIME
+2016-08-05 17:10:57:INFO:NOTHING OVERTIME
+2016-08-05 18:13:52:INFO:refund ￥8.43 to users
