@@ -1,7 +1,5 @@
 <?php
 
-require_once 'Conf/resource.php';
-
 if (file_exists('Conf/resource.php')) {
     include_once 'Conf/resource.php';
 } elseif (file_exists('../Conf/resource.php')) {

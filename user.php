@@ -1,18 +1,13 @@
 <?php
-require_once 'Conf/resource.php';
-
-function __autoload($class_name)
-{
-    if (file_exists($class_name . '.php')) {
-        require_once $class_name . '.php';
-    } elseif (file_exists('Entity/' . $class_name . '.php')) {
-        require_once 'Entity/' . $class_name . '.php';
-    }
-}
+require_once "load.php";
 
 $postdata = file_get_contents("php://input");
-$obj      = json_decode($postdata, true);
-$res      = new Response;
+if ($postdata == "") {
+    echo "post body required！";
+    die();
+}
+$obj = json_decode($postdata, true);
+$res = new Response;
 if (json_last_error() == JSON_ERROR_NONE && array_key_exists('name', $obj) && array_key_exists('pwd', $obj)) {
     $link = mysqli_connect(DB_HOST, DB_USER, DB_PWD, DB_NAME);
     if ($link) {

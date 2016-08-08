@@ -1,14 +1,5 @@
 <?php
-require_once '../Conf/resource.php';
-
-function __autoload($class_name)
-{
-    if (file_exists($class_name . '.php')) {
-        require_once $class_name . '.php';
-    } elseif (file_exists('../Entity/' . $class_name . '.php')) {
-        require_once '../Entity/' . $class_name . '.php';
-    }
-}
+require_once "../load.php";
 
 $response = new Response;
 

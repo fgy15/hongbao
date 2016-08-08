@@ -179,3 +179,6 @@ data = mid
     }
   }
 }
+9、添加crontab定时任务
+*/1 * * * * cd /usr/local/nginx/html/hongbao;/app/soft/php/bin/php time.php
+脚本定时检查红包过期时间和退款
